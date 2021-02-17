@@ -10,11 +10,8 @@ def dummy():
     class nnn:
         nodeNr=0
     n1=nnn()
-    setattr(n1,'nodeNr',1) 
-    setattr(n1,'xPos',0) 
-    setattr(n1,'yPos',0) 
-    setattr(n1,'xDisp',0) 
-    setattr(n1,'yDisp',0) 
+   
+
     setattr(n1,'Fx',np.nan) 
     setattr(n1,'Fy',np.nan)
     n2=nnn()
